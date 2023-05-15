@@ -41,7 +41,7 @@ sales_scenario = pd.DataFrame(dict(zip(columns, row)), index=[0])
 # st.table(mktg_scenario)
 
 # Now predicting!
-if st.button(label="Click to predict unit sales"):
+if st.button(label="Click to predict monthly sales"):
 
     # Load the model
     from sklearn.linear_model import LinearRegression
