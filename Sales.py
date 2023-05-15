@@ -48,7 +48,7 @@ if st.button(label="Click to predict monthly sales"):
     
 #     loaded_model = LinearRegression()
     
-    loaded_model = pickle.load(open('lr_model_prediction.sav','rb'))
+    loaded_model = pickle.load(open('lir_model_prediction.sav','rb'))
     
     # Make predictions (and get out pred probabilities)
     pred = loaded_model.predict(sales_scenario)[0]
